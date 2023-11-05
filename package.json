@@ -1,6 +1,7 @@
 {
   "name": "destack-workspace",
   "version": "1.0.0",
+  "main": "./lib/build/browser/index.js",
   "workspaces": [
     "./lib",
     "./dev/nextjs-project",
