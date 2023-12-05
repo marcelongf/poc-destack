@@ -8,7 +8,6 @@ import EditorElement from './EditorElement'
 import { Container } from '../shared/Container'
 
 import { loadTemplate, saveTemplateDebounce } from '../utils/fetch'
-import PoweredBy from './PoweredBy'
 
 import { ThemeContext, ThemeProvider } from '../store'
 
@@ -47,7 +46,6 @@ const FrameEditor: React.FC<FrameProps> = ({ data, standaloneServer }) => {
   ) : (
     <div className="page-container">
       <Frame />
-      <PoweredBy />
     </div>
   )
 }

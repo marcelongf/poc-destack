@@ -1,4 +1,4 @@
 'use client'
 
-import { ContentProvider } from 'destack'
-export default ContentProvider
+import { CustomContentProvider } from '../../utils/teste';
+export default CustomContentProvider

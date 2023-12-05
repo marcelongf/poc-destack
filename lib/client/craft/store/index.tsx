@@ -46,7 +46,7 @@ interface ContextInterface {
   standaloneServer: boolean
 }
 
-const _resolver = {
+export const defaultResolver = {
   Container,
   Component,
   Element,
@@ -65,7 +65,7 @@ const defaultValue = {
   themeIndex: 0,
   updateIndex: () => {},
   standaloneServer: false,
-  resolver: _resolver,
+  resolver: defaultResolver,
 }
 
 const ThemeContext = createContext<ContextInterface>(defaultValue)
